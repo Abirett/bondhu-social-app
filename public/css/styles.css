@@ -1,0 +1,82 @@
+/* This is the main stylesheet file for writing css codes */
+
+/* 
+Primary Color : #573BD3
+Secondary Color : #573BD3
+*/
+
+/* Boostrap Styles Override */
+
+body {
+  margin-top: 6rem !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px); /* adds a smooth filter to the backgrounds */
+}
+
+footer {
+  margin-top: 4rem !important;
+}
+
+/* Avatar */
+.avatar-xs {
+  height: 2.1875rem;
+  width: 2.1875rem;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.avatar-story {
+  position: relative;
+  padding: 4px;
+  z-index: 1;
+}
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: inline-block;
+  -ms-flex-negative: 0 !important;
+  flex-shrink: 0 !important;
+}
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+
+.vstack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+.h-200px {
+  height: 400px !important;
+}
+
+.avatar-xxl {
+  width: 8rem;
+  height: 8rem;
+}
+
+.mt-n5 {
+  margin-top: -5rem;
+}
